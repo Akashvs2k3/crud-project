@@ -1,0 +1,127 @@
+.b{
+    color: black;
+    padding-left: 275px;
+}
+.expense-track{
+    display: flex;
+    padding-top: 50px;
+}
+.Heading{
+  margin-left: 130px;
+}
+input[type=text]{
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+   
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: block;
+  }
+  input[type=number]{
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: block;
+  }
+.add-transaction{
+    display: inline-block;
+    box-sizing: border-box;
+}
+.pro{
+    margin-left: 280px;
+    align-items: center;
+    text-align: center;
+    
+}
+.profile{
+    border-radius: 50%;
+}
+.siginout-btn{
+  margin: 10px;
+  /* padding: 15px 30px; */
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 150% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 500;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.siginout-btn:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.siginout-btn:active {
+  transform: scale(0.95);
+
+}
+.transaction{
+    border: black solid 2px;
+    width: 500px;
+    margin-left: 130px;
+    margin-top: 50px;
+  
+}
+.Sub-head{
+   margin-left: 150px;
+}
+
+
+
+.button-69 {
+  background-color: initial;
+  background-image: linear-gradient(#8614f8 0, #760be0 100%);
+  border-radius: 5px;
+  border-style: none;
+  box-shadow: rgba(245, 244, 247, .25) 0 1px 1px inset;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 40px;
+
+  margin-left: -4px;
+  outline: 0;
+  text-align: center;
+  transition: all .3s cubic-bezier(.05, .03, .35, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: bottom;
+  width: 190px;
+}
+
+.button-69:hover {
+  opacity: .7;
+}
+
+@media screen and (max-width: 1000px) {
+  .button-69 {
+    font-size: 14px;
+    height: 55px;
+    line-height: 55px;
+    width: 150px;
+  }
+}
